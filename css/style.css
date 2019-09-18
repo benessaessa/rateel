@@ -1,0 +1,214 @@
+body{
+  height: 2000px;
+}
+/* ---------------- Style of Head ------------------------*/
+.head,footer{
+  background-color: rgb(220, 229, 241);
+}
+
+.fa{
+  color: #d8a538;
+}
+
+.fontaswems{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fontaswems .fab{
+    color: #d8a538;
+    padding: 4px;
+  }
+.fontaswems .fab:hover{
+    color: rgb(114, 70, 185);
+    background-color: white;
+}
+/* --------------------  Navbar Style ------------------------ */
+.navbar .nav-link{
+  color: #009688;
+}
+.navbar .nav-link .fa{
+  color: #ffaa2b;
+}
+
+.navbar,.navbar-nav{
+  padding: 2px;
+}
+.navbar-collapse{
+  text-align: center;
+}
+.navbar .navbar-brand img{
+  /* padding: 0px 7px; */
+  height: 56px;
+  width: 170px;
+}
+.navbar .navbar-nav .nav-item{
+  padding:14px 10px;
+  font-weight: bolder;
+}
+.navbar .navbar-nav .nav-item:hover{
+  background-color:#0bf8e0;
+}
+/* -------------------------------------------- */
+.slideSection{  
+  padding: 8%;
+}
+.carousel-inner img {
+  margin-left: 5px;
+
+}
+@media screen and (max-width: 900px) {
+  .secHide{
+    display: none;
+  }
+  .carousel-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+}
+/* -------------------------------------------- */
+/* -----------------------About Us --------------- */
+#about {
+  width: 100%;
+  min-height: 400px;
+  background: url("../images/about.webp") top center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #about {
+    background-attachment: fixed;
+  }
+}
+
+#about:before {
+  content: "";
+  background: rgba(68, 94, 128, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#about .about-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#about h1 {
+  margin: 10px 0 10px 0;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #about h1 {
+    font-size: 28px;
+    line-height: 5px;
+  }
+}
+
+#about h2 {
+  background-color: rgba(165, 161, 165, 0.9);
+  color: #eee;
+  margin-bottom: 20px;
+  font-size: 24px;
+  padding: 14px;
+}
+
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+/* ---------------- Services ----------------- */
+#services {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#services .box:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+#services .icon {
+  position: absolute;
+  left: 6px;
+  color: #007bff;
+  top: calc(50% - 32px);
+}
+
+#services .icon i {
+  font-size: 60px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#services .title {
+  margin-left: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: #007bff;
+}
+
+#services .description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+/* ------------------------------------------ resturant --------------------*/
+.resturant{
+  box-shadow: 1px 1px 1px #e0dacb;
+}
+.resturant .card .fas{
+  color: #ffaa2b;
+}
+.resturant .card a{
+  color: #111;
+}
+.fontaswem a{
+  padding: 14px;
+  font-size: 20px;
+  color: #ccb11b;
+}
+.fontaswem a:hover{
+  color: #007bff;
+}
