@@ -3,7 +3,8 @@ body{
 }
 /* ---------------- Style of Head ------------------------*/
 .head,footer{
-  background-color: rgb(220, 229, 241);
+  background-color: #312f2f;
+  color: white;
 }
 
 .fa{
@@ -18,56 +19,41 @@ body{
 }
 .fontaswems .fab{
     color: #d8a538;
-    padding: 4px;
+    padding-right: 14px;
   }
 .fontaswems .fab:hover{
-    color: rgb(114, 70, 185);
-    background-color: white;
+    color: white;
 }
 /* --------------------  Navbar Style ------------------------ */
 .navbar .nav-link{
-  color: #009688;
+  color: black !important;
 }
 .navbar .nav-link .fa{
   color: #ffaa2b;
 }
 
 .navbar,.navbar-nav{
-  padding: 2px;
+  padding: 0;
+  margin: 0;
 }
 .navbar-collapse{
   text-align: center;
 }
+.navbar-brand{
+  margin-left: 10% !important;
+}
 .navbar .navbar-brand img{
   /* padding: 0px 7px; */
-  height: 56px;
+  height: 52px;
   width: 170px;
 }
-.navbar .navbar-nav .nav-item{
-  padding:14px 10px;
+.navbar .navbar-nav .nav-item .nav-link{
+  padding:20px 20px;
   font-weight: bolder;
 }
-.navbar .navbar-nav .nav-item:hover{
-  background-color:#0bf8e0;
-}
-/* -------------------------------------------- */
-.slideSection{  
-  padding: 8%;
-}
-.carousel-inner img {
-  margin-left: 5px;
-
-}
-@media screen and (max-width: 900px) {
-  .secHide{
-    display: none;
-  }
-  .carousel-image{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  background-color:#ee8309;
+  color: white !important;
 }
 /* -------------------------------------------- */
 /* -----------------------About Us --------------- */
@@ -87,7 +73,7 @@ body{
 
 #about:before {
   content: "";
-  background: rgba(68, 94, 128, 0.4);
+  background: rgba(68, 94, 128, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -124,8 +110,9 @@ body{
 }
 
 #about h2 {
-  background-color: rgba(165, 161, 165, 0.9);
-  color: #eee;
+  background-color: rgba(241, 245, 247, 0.8);
+  color: rgb(7, 7, 7);
+  border-radius: 15px;
   margin-bottom: 20px;
   font-size: 24px;
   padding: 14px;
@@ -137,6 +124,14 @@ body{
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+.btnStart{
+  padding: 10px;
+  height: 50px;
+  width: 170px;
+  font-size: 19px;
+  color: white;
+  background-color: rgb(250, 157, 52);
 }
 /* ---------------- Services ----------------- */
 #services {
@@ -197,6 +192,7 @@ body{
 /* ------------------------------------------ resturant --------------------*/
 .resturant{
   box-shadow: 1px 1px 1px #e0dacb;
+  background-color: #f1f1f1;
 }
 .resturant .card .fas{
   color: #ffaa2b;
@@ -211,4 +207,9 @@ body{
 }
 .fontaswem a:hover{
   color: #007bff;
+}
+/* ========================================== Contact Us ========== */
+.contact{
+  background-color: #f1f1f1;
+  padding: 10px;;
 }
