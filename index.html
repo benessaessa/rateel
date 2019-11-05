@@ -1,274 +1,515 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="shortcut icon" href="images/logo.webp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Rateel</title>
-    </head>
-    <body>
-      <!-- Head -->
-      <section class="head">
-        <div class="container">
-            <div class="row pt-1">
-                <div class="col-sm-6 col-6">
-                    <div class="fontaswems pt-2">
-                        <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-                        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a><br>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-6 pt-2">
-                  <div class="text-center">
-                    <p><i class="fa fa-phone"></i> +2 01114205243</p>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </section>
-      <!-- End Of Head -->
-      <!-- Navbar -->
-      <nav class="navbar p-0 m-0 navbar-expand-lg navbar-light bg-light sticky-top" style="background-color:white !important">
-            <a class="navbar-brand ml-3" href="#"><img src="images/logo.webp" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto" dir="rtl">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html"><i class="fa fa-home"></i> الرئيسية <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about"><i class="fa fa-edit"></i> من نحن </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#works"><i class="fa fa-briefcase"></i> أعمالنا </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services"><i class="fa fa-pen"></i> خدماتنا </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#clients"><i class="fa fa-users"></i> عملائنا </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact"><i class="fa fa-envelope"></i> إتصل بنا </a>
-                </li>
-              </ul>
-            </div>  
-      </nav>
-      <!-- End of Navbar -->
+<html>
 
-      <!-- About Us -->
-      <section id="about">
-          <div class="about-container container">
-            <div class="row">
-              <div class="col-lg-2"></div>
-              <div class="col-lg-8">
-                <h1 class="text-center text-black p-4"><i class="fa fa-users"></i> من نحن <i class="fa fa-edit"></i></h1>
-                <h2>
-                  مؤسسة رتيل الشرق للمقاولات تميزت على مر السنوات الماضية فى عدة مجالات منها على سبيل المثال لا الحصر المطاعم بانواعها والكافيهات والتشطيبات الفاخرة بانواعها والخرسانة المسلحة بالالياف الزجاجية Glass Reinforced Concrete GRC  و المباني السكنية والتجارية, حيث نقوم بالعمل وفق الجدول الزمني بالمشروع وبالجودة الممتازة مما اكسبنا سمعتنا الطيبة وثقة عملائنا .
-                </h2>
-                <button class="btn btnStart font-weight-bold mb-3"> <i class="far fa-arrow-alt-circle-down mr-4 mt-1"></i> إبدأ الآن </button>
-              </div>
-              <div class="col-lg-2"></div>
-            </div>
+<head>
+  <title>Rateel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <!--===================== Navbar ============================-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="images/logo.webp" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav" dir="rtl">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> الرئيسية <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"> من نحن </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works"> أعمالنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services"> خدماتنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> عملائنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"> إتصل بنا </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--====================== End of Navbar =============================-->
+
+  <!-- ======================== About =============================== -->
+  <div id="about" class="container-fluid aboutSection mt-4">
+    <div class="row py-4">
+      <div class="col-lg-8">
+        <div class="about mt-2">
+          <h1 class="text-center mb-5"> <b> نبذة عن الشركة </b></h1>
+          <p class="mt-4 text-right" dir="rtl">شركة رتيل الشرق للمقاولات تميزت على مر السنوات الماضية فى عدة مجالات منها
+            على
+            سبيل المثال لا الحصر المطاعم بانواعها والكافيهات والتشطيبات الفاخرة بانواعها
+            والخرسانة المسلحة بالالياف الزجاجية Glass Reinforced Concrete GRC
+            والمباني السكنية والتجارية حيث نقوم بالعمل وفق الجدول الزمني بالمشروع وبالجودة
+            الممتازة مما اكسبنا سمعتنا الطيبة وثقة عملائنا.
+            تأسست شركة رتيل الشرق لتحقق أعلى مستويات الجودة والتميز في مجال المقاولات وتصميم
+            الديكور من خلال نظام حديث يتوافق مع متطلبات السوق والارتقاء بمستوى الخدمة المقدمة
+            بإستخدام احدث الإنظمة والاساليب المعمول بها في كبرى شركات العالم المتخصصة في
+            تقديم خدمات التصميم الداخلي .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================= End of about ======================== -->
+
+  <!--============================ Info ============================== -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div id="info" class="text-center vision">
+          <div>
+            <h1 class="text-center py-4"><b> رؤية الشركة </b></h1>
+            <p class="py-2" dir="rtl">أن نكون مركز رائد ومتميز في تقديم الحلول المتكاملة في مجال المقاولات و التنفيذ
+              والتصميم الداخلي للقطاع العام والخاص.</p>
           </div>
-      </section>
-      <!-- End of About Us -->
-          <!--==========================
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="text-center about">
+          <div>
+            <h1 class="text-center py-4"><b> رسالة الشركة </b></h1>
+            <p class="py-2" dir="rtl">نحن صرح داعم لعملائه متميز بتأمين أعمالهم وتحقيق تطلعاتهم من خلال بدأ اعمالهم.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="text-center vision">
+          <div>
+            <h1 class="text-center py-4"><b> قيم الشركة </b></h1>
+            <p class="py-2" dir="rtl">قيمنا تتمثل في مبادئنا الثابتة والواضحة والجودة التي تستهدف رضا عملائنا وكسب
+              ثقتهم.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ End of Info ====================== -->
+
+  <!--============================== Restrunt =========================-->
+  <div class="container-fluid m-0 py-3 px-5 restrunt" id="works">
+    <h2 class="text-right bg-white p-4">أعمالنا <i class="fa fa-edit"></i></h2>
+    <div class="row pt-3 pb-3" dir="rtl">
+      <div class="col-lg-3 col-md-6 col-sm-6 text-right">
+        <h2 class="mb-5"><b> قسم المطاعم </b></h2>
+        <div class="textWork">
+          <ol type="1">
+            <li><a href="#">حاشي باشا</a></li>
+            <li><a href="#">جود ستف</a></li>
+            <li><a href="#">د.عصير</a></li>
+            <li><a href="#">رويال ورق عنب</a></li>
+            <li><a href="#">البرجر الحقيقي</a></li>
+            <li><a href="#">شاورما واي</a></li>
+            <li><a href="#">يمي ووك</a></li>
+          </ol>
+          
+        </div>
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 text-right">
+        <h2 class="mb-5"><b> قسم التجاري </b></h2>
+        <div class="textWork">
+          <ol type="1">
+            <li><a href="#">كارديال</a></li>
+            <li><a href="#">داليل</a></li>
+            <li><a href="#">عربات متنقلة</a></li>
+            <li><a href="#">مكاتب</a></li>
+            <li><a href="#">قاعات افراح</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 text-right">
+        <h2 class="mb-5"><b> قسم السكني  </b></h2>
+        <div class="textWork">
+          <ol type="1">
+            <li><a href="#">فلل سكنية</a></li>
+            <li><a href="#">مجمعات اسكانية</a></li>
+            <li><a href="#">عمائر سكنية</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 text-right">
+        <h2 class="text-center mb-5"><b>  الأعمال المتخصصة </b></h2>
+        <div class="textWork">
+          <ol type="1">
+            <li><a href="#">اعمال العزل المائي و الحراري</a></li>
+            <li><a href="#">أعمال الكترو ميكانيك</a></li>
+            <li><a href="#">تنفيذ اعمال متخصصة في مترو الرياض</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/1.jpeg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/2.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/3.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/4.jpg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid m-0 py-3 px-5 works">
+    <h2 class="text-center mb-5"><b> قسم التجاري </b></h2>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/3.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/4.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/1.jpeg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/2.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid m-0 py-3 px-5 works">
+    <h2 class="text-center mb-5"><b> قسم السكني </b></h2>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/2.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/3.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/4.jpg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/5.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid m-0 py-3 px-5 works">
+    <h2 class="text-center mb-5"><b> قسم الأعمال المتخصصة </b></h2>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/4.jpg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/3.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/2.webp" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="overlayDiv">
+          <img src="images/1.jpeg" alt="Avatar" class="image">
+          <a href="#" class="overlay">
+            <div class="text">
+              <h3>Good Stuff</h3>
+              <h4><i class="fas fa-hand-point-up"></i> إضغط هنا </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--============================== End of works ==================-->
+
+  <section class="container vision pt-4">
+    <h1 class="text-center mb-5"><b> عملائنا </b></h1>
+    <a href="#">
+      <img src="images/clients.JPG" width="100%">
+    </a>
+  </section>
+
+  <!--============================== Metro =========================-->
+  <div id="about" class="container-fluid aboutSection">
+    <div class="row py-4" dir="rtl">
+      <div class="col-lg-8">
+        <div class="about mt-2">
+          <h1 class="text-center mb-5"> <b> مشروع المترو (Backs) </b></h1>
+          <p class="mt-4 text-right" dir="rtl">
+              قطار الرياض الكهربائي معروف بمسمى مترو الرياض هو جزء من مشروع الملك عبد العزيز
+              للنقل العام بمدينة الرياض، الذي يتكون من القطارات والحافلات، حيث سيتم إنشاء ستة
+              خطوط مترو رئيسية تخترق العاصمة السعودية الرياض من جميع الاتجاهات، وبسرعة تقدر
+              ب 80 كلم بالساعة، وطاقة استيعابية تصل إلى 1.16 مليون راكب يوميا] 1[، ويضم 85 محطة،
+              بتكلفة تبلغ 22.5 مليار دولار، ومن المقرر تشغيله في عام 2019 م
+              ولقد قمنا بتنفيذ عدة اعمال في هذا المشروع العملاق
+              منها العزل و الحديد
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--============================== End of offers ==================-->
+  <!--==========================
       Services Section
     ============================-->
-    <section id="services" class="section-bg">
-      <div class="container">
+  <section id="services" class="section-bg">
+    <div class="container-fluid">
 
-        <header class="text-center section-header">
-          <h1> الخدمات </h1>
-          <h5 class="text-muted">نحن نقدم الكثير من الخدمات في شركتنا </h5>
-        </header><br>
+      <h2 class="text-center bg-white p-3 mb-4"> خدماتنا  <i class="fa fa-bell"></i></h2>
+      
 
-        <div class="row " dir="rtl">
+      <div class="row " dir="rtl">
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-book"></i></div>
-              <h4 class="title text-right"><a href="">تشطيب الديكور الداخلي</a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-building"></i></div>
-              <h4 class="title"><a href="">تشطيب الديكور الخارجية</a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4  wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-synagogue"></i></div>
-              <h4 class="title text-center"><a href="">إنشاء وبناء المراكز التجارية</a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-home"></i></div>
-              <h4 class="title text-center"><a href=""> إنشاء وبناء الفلل الخاصة </a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-edit"></i></div>
-              <h4 class="title text-center"><a href="">تصميم ديكور داخلي</a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-city  mr-2"></i></div>
-              <h4 class="title text-center"><a href="">تصميم المباني الخارجية </a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-clipboard"></i></div>
-              <h4 class="title"><a href=""> الاستشارة الهندسية و الاشراف </a></h4>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="fa fa-door-closed"></i></div>
-              <h5 class="title text-right ml-1"><a href=""> تصميم و تنفيذ الابواب الخشبية</a></h5>
-              <p class="description text-right"> نحن  لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #services -->
-
-    <!--==========================-->
-      <section class="resturant p-4" id="works">
-        <div class="container">
-          <h4 class="text-center"> أعمالنا  </h4><br>
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div class="card text-right p-2">
-                <h4 class="card-title text-center">قسم المطاعم</h4>
-                <img class="card-img-top" src="images/rest.jpg" height="160px" alt="">
-                <div class="card-body">
-                  <p><a href="#">حاشي باشا </a> <i class="fas fa-utensils"></i></p>
-                  <p><a href="#"> جود ستف </a> <i class="fas fa-utensils"></i></p>
-                  <p><a href="#"> شاورما واي </a> <i class="fas fa-utensils"></i></p>
-                  <a href="#" class="btn btn-primary text-white">المزيد من المطاعم</a>
-                </div>
-              </div><br>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div class="card text-right p-2">
-                <h4 class="card-title text-center">قسم التجاري </h4>
-                <img class="card-img-top" src="images/tgary.jpeg" height="160px" alt="">
-                <div class="card-body">
-                  <p><a href="#">كارديال </a> <i class="fas fa-hotel"></i></p>
-                  <p><a href="#"> داليل </a> <i class="fas fa-hotel"></i></p>
-                  <p><a href="#"> عربات متنقلة </a> <i class="fas fa-hotel"></i></p>
-                  <a href="#" class="btn btn-primary text-white"> ..المزيد </a>
-                </div>
-              </div><br>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div class="card text-right p-2">
-                <h4 class="card-title text-center"> قسم السكني </h4>
-                <img class="card-img-top" src="images/villa.jpg" height="160px" alt="">
-                <div class="card-body">
-                  <p><a href="#"> فلل سكنية </a> <i class="fas fa-hotel"></i></p>
-                  <p><a href="#"> مجمعات اسكانية </a> <i class="fas fa-home"></i></p>
-                  <p><a href="#"> عمائر سكنية </a> <i class="fas fa-building"></i></p>
-                  <a href="#" class="btn btn-primary text-white"> ..المزيد </a>
-                </div>
-              </div><br>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div class="card text-right p-2">
-                <h5 class="card-title text-center p-1"> قسم الأعمال المتخصصة </h5>
-                <img class="card-img-top" src="images/work.jpg" height="160px" alt="">
-                <div class="card-body">
-                  <p><a href="#">  العزل المائي و الحراري </a> <i class="fas fa-edit"></i></p>
-                  <p><a href="#">  الكترو ميكانيك </a> <i class="fas fa-edit"></i></p>
-                  <p><a href="#">  اعمال في مترو الرياض </a> <i class="fas fa-edit"></i></p>
-                  <a href="#" class="btn btn-primary text-white"> ..المزيد </a>
-                </div>
-              </div><br>
-            </div>
-
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-book"></i></div>
+            <h4 class="title text-right"><a href="">تشطيب الديكور الداخلي</a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
           </div>
         </div>
-      </section>
-      <!--========================== -->
-      <!-- Our Clients -->
-      <div class="text-center" id="clients"><br>
-        <h4>عملائنا</h4><br>
-        <a href="#">
-          <img src="images/Capture.JPG" width="70%">
-        </a>
-      </div>
-      <!-- end of our clients -->
-      <!-- contat us -->
-      <div class="contact p-5" id="contact">
-        <h4 class="text-center">تواصل معنا </h4><br>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <p>Tel : 224 45544</p>
-              <p> <a href="#" class="text-dark">Info@rateel.com.sa</a> &nbsp;  البريدالإلكتروني  </p>
-                <div class="fontaswem pt-2">
-                    <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href="#"><i class="fab fa-linkedin fa-lg"></i></a><br>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <form class="text-right" dir="rtl">
-                <div class="form-group">
-                  <label for="email">البريد الإلكتروني</label>
-                  <input type="email" class="form-control" placeholder="البريد الإلكتروني" id="email">
-                </div>
-                <div class="form-group">
-                  <label for="pwd"> الرسالة</label>
-                  <textarea name="" id="" placeholder="الرسالة" class="form-control"></textarea>
-                </div>
-                
-                <button type="submit" class="btn btn-primary"> إرسال </button>
-              </form>
-            </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-building"></i></div>
+            <h4 class="title"><a href="">تشطيب الديكور الخارجية</a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
           </div>
         </div>
+
+        <div class="col-md-6 col-lg-4  wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-synagogue"></i></div>
+            <h4 class="title text-center"><a href="">إنشاء وبناء المراكز التجارية</a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-home"></i></div>
+            <h4 class="title text-center"><a href=""> إنشاء وبناء الفلل الخاصة </a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-edit"></i></div>
+            <h4 class="title text-center"><a href="">تصميم ديكور داخلي</a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-city  mr-2"></i></div>
+            <h4 class="title text-center"><a href="">تصميم المباني الخارجية </a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-clipboard"></i></div>
+            <h4 class="title"><a href=""> الاستشارة الهندسية و الاشراف </a></h4>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="box">
+            <div class="icon"><i class="fa fa-door-closed"></i></div>
+            <h5 class="title text-right ml-1"><a href=""> تصميم و تنفيذ الابواب الخشبية</a></h5>
+            <p class="description text-right"> نحن لدينا فريق عمل ذو خبرة كبيرة في هذا المجال</p>
+          </div>
+        </div>
+
       </div>
-      <!-- end of contact us -->
-      <footer class="m-0 p-3">
-        <h5 class="text-center">Copy Right &copy; Mohamed Essa</h5>
-      </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
+    </div>
+  </section><!-- #services -->
+
+  <!--==========================-->
+
+  <!-- contat us -->
+  <div class="contact p-5" id="contact">
+    <h3 class="text-center bg-white p-3">تواصل معنا <i class="fa fa-envelope"></i></h3><br>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <p>المكتب الرئيسي</p>
+          <p>الرياض, حي النهضة</p>
+          <p>المملكة العربية السعودية</p>
+          <p>What'sApp:   +966-549870437</p>
+          <p> Tel : 224 45544 </p>
+          <p> <a href="#" class="text-dark">Info@rateel.com.sa</a> &nbsp; البريدالإلكتروني </p>
+          <div class="fontaswem pt-2">
+            <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-lg"></i></a><br>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <form class="text-right" dir="rtl">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="الإسم * "><br>
+              <input type="email" class="form-control" placeholder="البريد الإلكتروني" id="email"><br>
+              <input type="tel" class="form-control" placeholder="رقم الجوال *"><br>
+              <input type="text" class="form-control" placeholder="العنوان * "><br>
+              <textarea placeholder="الرسالة" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btnSubmit d-flex mx-auto px-4"> إرسال </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of contact us -->
+  
+  <footer class="m-0 p-4">
+    <h5 class="text-center text-white">Cop Right &copy; Mohamed Essa </h5>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/file.js"></script>
+</body>
+
 </html>
